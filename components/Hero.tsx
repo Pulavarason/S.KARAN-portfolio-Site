@@ -16,11 +16,13 @@ import MagneticButton from "./MagneticButton";
 const NAME = site.fullName;
 const ROLE = site.role;
 
-// 👉 Put your three images in /public/images/hero/ and update these paths.
+// 👉 Mobile and desktop images are separate. Put them in /public/images/hero/
 const SLIDES = [
-  { src: "/images/hero/hero-01.svg", alt: `${NAME} ` },
-  { src: "/images/hero/hero-02.svg", alt: `${NAME} ` },
-  { src: "/images/hero/hero-03.svg", alt: `${NAME} ` },
+  {
+    mobile: "/images/hero/hero1.png",
+    desktop: "/images/hero/hero-desktop.jpg", // 👉 add your desktop image with this name
+    alt: `${NAME}`,
+  },
 ];
 
 const SLIDE_MS = 5000;
@@ -79,13 +81,24 @@ export default function Hero() {
               animate={{ scale: 1 }}
               transition={{ duration: (SLIDE_MS + 1500) / 1000, ease: "linear" }}
             >
+              {/* Mobile image (hidden from md and up) */}
               <Image
-                src={SLIDES[index].src}
+                src={SLIDES[index].mobile}
                 alt={SLIDES[index].alt}
                 fill
                 priority={index === 0}
                 sizes="100vw"
-                className="object-cover"
+                className="object-cover md:hidden"
+              />
+
+              {/* Desktop image (hidden below md) */}
+              <Image
+                src={SLIDES[index].desktop}
+                alt={SLIDES[index].alt}
+                fill
+                priority={index === 0}
+                sizes="100vw"
+                className="hidden object-cover md:block"
               />
             </motion.div>
           </motion.div>

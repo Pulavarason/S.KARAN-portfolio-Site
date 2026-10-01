@@ -91,20 +91,23 @@ export default function AboutPage() {
           </Reveal>
 
           {/* Stats */}
-          <Reveal delay={0.4}>
-            <div className="mt-6 grid grid-cols-3 divide-x divide-[var(--line)] border border-[var(--line)] bg-[var(--bg-soft)]">
-              {stats.map((s) => (
-                <div key={s.label} className="px-4 py-6 text-center md:py-8">
-                  <p className="font-display text-3xl text-[var(--text)] md:text-4xl">
-                    {s.value}+
-                  </p>
-                  <p className="mt-2 font-sans text-[10px] uppercase tracking-widest2 text-[var(--text-muted)]">
-                    {s.label}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </Reveal>
+<Reveal delay={0.4}>
+  <div className="mt-6 grid grid-cols-3 divide-x divide-[var(--line)] overflow-hidden border border-[var(--line)] bg-[var(--bg-soft)]">
+    {stats.map((s) => (
+      <div
+        key={s.label}
+        className="min-w-0 px-2 py-6 text-center sm:px-4 md:py-8"
+      >
+        <p className="font-display text-2xl text-[var(--text)] sm:text-3xl md:text-4xl">
+          {s.value}+
+        </p>
+        <p className="mt-2 break-words font-sans text-[8px] uppercase tracking-[0.12em] text-[var(--text-muted)] sm:text-[10px] sm:tracking-widest2">
+          {s.label}
+        </p>
+      </div>
+    ))}
+  </div>
+</Reveal>
         </div>
       </section>
 
