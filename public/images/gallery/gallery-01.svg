@@ -1,0 +1,13 @@
+<svg width="1000" height="1300" viewBox="0 0 1000 1300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g0" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b2b28"/>
+      <stop offset="100%" stop-color="#57544a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1300" fill="url(#g0)"/>
+  <line x1="0" y1="185.71428571428572" x2="1000" y2="185.71428571428572" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/><line x1="0" y1="371.42857142857144" x2="1000" y2="371.42857142857144" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="557.1428571428571" x2="1000" y2="557.1428571428571" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/><line x1="0" y1="742.8571428571429" x2="1000" y2="742.8571428571429" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/><line x1="0" y1="928.5714285714287" x2="1000" y2="928.5714285714287" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="1114.2857142857142" x2="1000" y2="1114.2857142857142" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <circle cx="820" cy="286" r="140" fill="#ffffff" fill-opacity="0.05"/>
+  <text x="60" y="1183" font-family="Georgia, 'Times New Roman', serif" font-size="45" fill="#f5f5f0" fill-opacity="0.88" letter-spacing="2">GOLDEN HOUR STUDY I</text>
+  <text x="60" y="1241.5" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#f5f5f0" fill-opacity="0.5" letter-spacing="3">GALLERY</text>
+</svg>

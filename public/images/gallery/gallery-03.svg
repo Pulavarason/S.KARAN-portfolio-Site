@@ -1,0 +1,13 @@
+<svg width="1100" height="1100" viewBox="0 0 1100 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#26241f"/>
+      <stop offset="100%" stop-color="#4d4238"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1100" fill="url(#g2)"/>
+  <line x1="0" y1="157.14285714285714" x2="1100" y2="157.14285714285714" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/><line x1="0" y1="314.2857142857143" x2="1100" y2="314.2857142857143" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="471.42857142857144" x2="1100" y2="471.42857142857144" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/><line x1="0" y1="628.5714285714286" x2="1100" y2="628.5714285714286" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/><line x1="0" y1="785.7142857142857" x2="1100" y2="785.7142857142857" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/><line x1="0" y1="942.8571428571429" x2="1100" y2="942.8571428571429" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <circle cx="902" cy="242" r="154.00000000000003" fill="#ffffff" fill-opacity="0.05"/>
+  <text x="66" y="1001" font-family="Georgia, 'Times New Roman', serif" font-size="49.5" fill="#f5f5f0" fill-opacity="0.88" letter-spacing="2">PORTRAIT IN GREY</text>
+  <text x="66" y="1050.5" font-family="Helvetica, Arial, sans-serif" font-size="19.799999999999997" fill="#f5f5f0" fill-opacity="0.5" letter-spacing="3">GALLERY</text>
+</svg>
